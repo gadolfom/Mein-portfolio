@@ -53,3 +53,26 @@ button {
 button:hover {
     background-color: #45a049;
 }
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    header, section {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
