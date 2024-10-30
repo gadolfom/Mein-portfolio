@@ -9,19 +9,20 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background: linear-gradient(135deg, #4CAF50, #45a049);
     color: white;
-    padding: 20px;
+    padding: 40px 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-    font-size: 2.5em;
-    margin: 0;
+    font-size: 2.8em;
+    margin: 0 0 10px;
 }
 
 header p {
-    font-size: 1.2em;
+    font-size: 1.3em;
+    margin: 0;
 }
 
 section {
@@ -83,7 +84,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #388e3c;
 }
 
 /* Estilos para redes sociales */
